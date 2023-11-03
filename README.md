@@ -18,7 +18,7 @@ Aqui está como você pode usar o Kori Views em seu projeto PHP:
 ```php
 <?php
 
-require_once __DIR__ . '/../src/KoriViews/Template.php';
+require_once __DIR__ . '/../src/Template/Template.php';
 
 // Crie uma instância da classe Template
 $template = new KoriViews\Template();
