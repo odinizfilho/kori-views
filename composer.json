@@ -1,5 +1,13 @@
 {
     "name": "odinizfilho/kori-views",
+    "description": "Kori Views é uma biblioteca leve de renderização de templates em PHP para a construção de páginas da web dinâmicas. Ela permite separar sua lógica PHP de seus modelos HTML, tornando seu código mais limpo e mais fácil de manter.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Diniz"
+        }
+    ],
     "require": {
         "php": ">=8.1.0"
     },
