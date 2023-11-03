@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../src/KoriViews/Template.php';
+require_once __DIR__ . '/../src/Template/Template.php';
 
 // Test the Template class
 $template = new KoriViews\Template();
