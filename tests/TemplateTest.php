@@ -2,10 +2,12 @@
 
 require_once __DIR__ . '/../src/Template.php';
 
-// Test the Template class
+// Testando a  class Template 
 $template = new KoriViews\Template();
-$template->setTemplateDirectory(__DIR__ . '/templates'); // Defina o diretório aqui
+$templateDirectory = __DIR__ . '/templates'; // Defina o diretório aqui
+$template->setTemplateDirectory($templateDirectory);
 $data = ['name' => 'John'];
-$output = $template->render('test-template.kori');
+$output = $template->render('test-template.kori', $data);
 
 echo $output;
+

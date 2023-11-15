@@ -1,1 +1,11 @@
-Olá
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome, <kori code="name"/></title>
+</head>
+<body>
+    <h1>Hello, <kori code="name"/>!</h1>
+    <p>Welcome to our website.</p>
+</body>
+</html>
