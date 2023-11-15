@@ -9,7 +9,7 @@ Kori Views é uma biblioteca leve de renderização de templates em PHP para a c
 Instale kori-views com composer
 
 ```bash
-  composer require odinizfilho/kori-views
+  composer require odinizfilho/kori-views:dev-master
 ```
     
 ## Uso/Exemplos
